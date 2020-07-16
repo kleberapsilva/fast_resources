@@ -1,0 +1,15 @@
+name: cleanusecase
+description: Create a flutter usecase.
+to: lib/domain/usecases/@name
+args:
+  - name
+  - msg
+ 
+snippets:
+  - file: '@name_usecase.dart'
+    prefix: usecase
+    excluded:
+      - 0
+      - 1
+
+    

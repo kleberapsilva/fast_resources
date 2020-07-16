@@ -1,0 +1,14 @@
+name: full
+description: Create a Flutter Widget.
+to: lib/app/pages/@name
+args:
+  - name
+ 
+snippets:
+  - file: '@name_full.dart'
+    prefix: full
+    excluded:
+      - 0
+      - 1
+        
+    

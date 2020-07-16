@@ -1,0 +1,6 @@
+name: cleanfull
+description: Create flutter clean.
+to: lib/app/pages/@name
+args:
+  - name
+

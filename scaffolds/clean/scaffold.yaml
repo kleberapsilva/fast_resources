@@ -1,0 +1,42 @@
+name: clean
+description: A clean template.
+author: Pedro Bissonho <pedro.bissonho@gmail.com>
+
+structure:
+  - app:
+    - pages
+    - shared 
+    - themes
+    - utils
+  - data:
+    - helpers
+    - repositories
+  - device:
+    - repositories
+    - utils
+  - domain:
+    - entities
+    - usecases
+    - repositories
+   
+test_structure:
+  - app:
+  - data:
+
+dependencies: 
+  flutter_clean_architecture:
+   
+
+dev_dependencies:
+
+
+
+
+
+
+
+
+
+
+
+      

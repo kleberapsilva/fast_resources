@@ -1,0 +1,15 @@
+name: cleancontroller
+description: Create a flutter controller.
+to: lib/app/pages/@name
+args:
+  - name
+  - msg
+ 
+snippets:
+  - file: '@name_controller.dart'
+    prefix: controller
+    excluded:
+      - 0
+      - 1
+
+    

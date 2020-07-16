@@ -1,0 +1,15 @@
+name: cleanpresenter
+description: Create a flutter presenter.
+to: lib/app/pages/@name
+args:
+  - name
+  - msg
+ 
+snippets:
+  - file: '@name_presenter.dart'
+    prefix: presenter
+    excluded:
+      - 0
+      - 1
+
+    
